@@ -9,7 +9,8 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #eff4fd;
+    background-color: black;
+    color: white;
 }
 
 .logo {
@@ -43,7 +44,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white
     padding: 0 16px;
 }
 
@@ -71,11 +72,17 @@ nav ul li a:hover{
 }
 
 .del a{
-    background-color: black;
+    background-color: red;
     color: white;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.del a:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    transition: 1s;
 }
 
 .images {
@@ -111,4 +118,67 @@ nav ul li a:hover{
 .front {
     width: 450px;
     height: 100px;
+}
+
+span{
+    color: orange;
+}
+
+.about{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.img {
+    width: 600px;
+    height: 550px;
+    border: none;
+}
+
+.text{
+    align-items: center;
+    padding: 40px;
+    line-height: 20px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+p{
+    font-size: 12px;
+    line-height: 22px;
+    color: #555;
+}
+
+.text a{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.text a:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    transition: 1s;
 }
